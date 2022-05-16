@@ -51,19 +51,19 @@ function render(variables = {}) {
   }
 
   if (!variables.twitter) {
-    variables.twitter = "Twitter";
+    variables.twitter = "4geeksacademy";
   }
 
   if (variables.github === "alesanchezr") {
-    variables.github = "Github";
+    variables.github = "4geeksacademy";
   }
 
   if (!variables.linkedin) {
-    variables.linkedin = "LinkedIn";
+    variables.linkedin = "school/4geeksacademyes";
   }
 
   if (!variables.instagram) {
-    variables.instagram = "Instagram";
+    variables.instagram = "4geeksacademy";
   }
 
   // reset the website body with the new html output
@@ -74,10 +74,10 @@ function render(variables = {}) {
           <h2>${variables.role}</h2>
           <h3>${variables.city}, ${variables.country}</h3>
           <ul class=${variables.socialMediaPosition}>
-            <li><a href="https://twitter.com/${variables.twitter}" class="socialLinks"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="https://github.com/${variables.github}" class="socialLinks"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://linkedin.com/${variables.linkedin}" class="socialLinks"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://instagram.com/${variables.instagram}" class="socialLinks"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/${variables.twitter}"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://github.com/${variables.github}"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://linkedin.com/${variables.linkedin}"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://instagram.com/${variables.instagram}"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
