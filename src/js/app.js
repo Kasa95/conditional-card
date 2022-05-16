@@ -62,7 +62,7 @@ function render(variables = {}) {
     variables.linkedin = "LinkedIn";
   }
 
-  if (!variables.isntagram) {
+  if (!variables.instagram) {
     variables.instagram = "Instagram";
   }
 
@@ -74,10 +74,10 @@ function render(variables = {}) {
           <h2>${variables.role}</h2>
           <h3>${variables.city}, ${variables.country}</h3>
           <ul class="position-right">
-            <li><a href="https://twitter.com/4geeksacademy"><i class="fab fa-twitter">${variables.twitter}</i></a></li>
-            <li><a href="https://github.com/4geeksacademy"><i class="fab fa-github">${variables.github}</i></a></li>
-            <li><a href="https://linkedin.com/4geeksacademy"><i class="fab fa-linkedin">${variables.linkedin}</i></a></li>
-            <li><a href="https://instagram.com/4geeksacademy"><i class="fab fa-instagram">${variables.instagram}</i></a></li>
+            <li><a href="https://twitter.com/4geeksacademy" class="socialLinks"><i class="fa-brands fa-twitter"></i> ${variables.twitter}</a></li>
+            <li><a href="https://github.com/4geeksacademy" class="socialLinks"><i class="fab fa-github"></i> ${variables.github}</a></li>
+            <li><a href="https://linkedin.com/4geeksacademy" class="socialLinks"><i class="fab fa-linkedin"></i> ${variables.linkedin}</a></li>
+            <li><a href="https://instagram.com/4geeksacademy" class="socialLinks"><i class="fab fa-instagram"></i> ${variables.instagram}</a></li>
           </ul>
         </div>
     `;
